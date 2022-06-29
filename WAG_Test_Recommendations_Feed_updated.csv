@@ -4,21 +4,21 @@
 ## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left.,,,,,,,,,,,,,,,,,,,
 ## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'.,,,,,,,,,,,,,,,,,,,
 ## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations.,,,,,,,,,,,,,,,,,,,
-## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.storeID,entity.region,entity.season,entity.custom4,entity.custom5,entity.custom6,entity.custom7,entity.custom8,entity.custom9,entity.custom10,...
-Prod_1,Calamine Lotion,First Aid,,https://pics.drugstore.com/prodimg/542296/450.jpg,,,,,store_123,east,season1,,,,,,,,
-Prod_2,Elastic Earloop Disposable Face,First Aid,,https://pics.drugstore.com/prodimg/622844/450.jpg,,,,,store_231,east,season2,,,,,,,,
-Prod_3,Skin Tag Remover Patches,First Aid,,https://pics.drugstore.com/prodimg/611310/450.jpg,,,,,store_312,west,season3,,,,,,,,
+## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.margin,entity.storeID,entity.region,entity.season,entity.brand,entity.custom5,entity.custom6,entity.custom7,entity.custom8,entity.custom9,entity.custom10,...
+Prod_1,Calamine Lotion,First Aid,,https://pics.drugstore.com/prodimg/542296/450.jpg,,,,,store_123,east,season1,WAG,,,,,,,
+Prod_2,Elastic Earloop Disposable Face,First Aid,,https://pics.drugstore.com/prodimg/622844/450.jpg,,,,,store_231,east,season2,WAG,,,,,,,
+Prod_3,Skin Tag Remover Patches,First Aid,,https://pics.drugstore.com/prodimg/611310/450.jpg,,,,,store_312,west,season3,WAG,,,,,,,
 Prod_4,"ProVent
-Skin Tag Oil",First Aid,,https://pics.drugstore.com/prodimg/504597/450.jpg,,,,,store_123,west,season1,,,,,,,,
+Skin Tag Oil",First Aid,,https://pics.drugstore.com/prodimg/504597/450.jpg,,,,,store_123,west,season1,WAG,,,,,,,
 Prod_5,"Walgreens
-Hydrocortisone Cream",First Aid,,https://pics.drugstore.com/prodimg/578851/450.jpg,,,,,store_231,north,season2,,,,,,,,
+Hydrocortisone Cream",First Aid,,https://pics.drugstore.com/prodimg/578851/450.jpg,,,,,store_231,north,season2,WAG,,,,,,,
 Prod_6,"Banana Boat
-Kids Sunscreen Spray SPF 50",Sun Care,,https://pics.drugstore.com/prodimg/642817/450.jpg,,,,,store_312,north,season3,,,,,,,,
+Kids Sunscreen Spray SPF 50",Sun Care,,https://pics.drugstore.com/prodimg/642817/450.jpg,,,,,store_312,north,season3,WAG,,,,,,,
 Prod_7,"Neutrogena
-Ultra Sheer Dry-Touch SPF 30 Sunscreen Lotion",Sun Care,,https://pics.drugstore.com/prodimg/79567/450.jpg,,,,,store_123,south,season1,,,,,,,,
+Ultra Sheer Dry-Touch SPF 30 Sunscreen Lotion",Sun Care,,https://pics.drugstore.com/prodimg/79567/450.jpg,,,,,store_123,south,season1,WAG,,,,,,,
 Prod_8,"Bondi Sands
-Self Tan Eraser",Sun Care,,https://pics.drugstore.com/prodimg/610106/450.jpg,,,,,store_231,south,season2,,,,,,,,
+Self Tan Eraser",Sun Care,,https://pics.drugstore.com/prodimg/610106/450.jpg,,,,,store_231,south,season2,WAG,,,,,,,
 Prod_9,"Neutrogena
-Hydro Boost Moisturizing Sunscreen Lotion, SPF 50",Sun Care,,https://pics.drugstore.com/prodimg/603531/450.jpg,,,,,store_312,east,season3,,,,,,,,
+Hydro Boost Moisturizing Sunscreen Lotion, SPF 50",Sun Care,,https://pics.drugstore.com/prodimg/603531/450.jpg,,,,,store_312,east,season3,WAG,,,,,,,
 Prod_10,"Fruit of the Earth
-Aloe Vera 100% Gel Crystal Clear",Sun Care,,https://pics.drugstore.com/prodimg/213357/450.jpg,,,,,store_123,west,season1,,,,,,,,
+Aloe Vera 100% Gel Crystal Clear",Sun Care,,https://pics.drugstore.com/prodimg/213357/450.jpg,,,,,store_123,west,season1,WAG,,,,,,,
