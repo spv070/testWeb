@@ -10,7 +10,7 @@ adobe.target.getOffers({
             prodID: '10_packid'
           },
           profileParameters: {
-            storeID: '11_packid'
+            WAGstore: '11_packid'
           }
         },
          {
@@ -20,7 +20,7 @@ adobe.target.getOffers({
             prodID: '12_packid'
           },
           profileParameters: {
-            storeID: '13_packid'
+            WAGstore: '13_packid'
           }
         },
         {
@@ -30,7 +30,7 @@ adobe.target.getOffers({
             prodID: '14_packid'
           },
           profileParameters: {
-            storeID: '15_packid'
+            WAGstore: '15_packid'
           }
         }
       ]
