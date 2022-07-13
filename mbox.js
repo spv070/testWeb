@@ -3,17 +3,35 @@ adobe.target.getOffers({
   request: {
     prefetch: {
       mboxes: [
-        {
+         {
           index: 0,
-          name: "WAG-mbox1"
+          name: "WAG-mbox1",
+          parameters: {
+            prodID: 1
+          },
+          profileParameters: {
+            storeID: 2
+          }
         },
-        {
+         {
           index: 1,
-          name: "WAG-mbox2"
+          name: "WAG-mbox2",
+          parameters: {
+            prodID: 1
+          },
+          profileParameters: {
+            storeID: 2
+          }
         },
         {
           index: 2,
-          name: "WAG-mbox3"
+          name: "WAG-mbox3",
+          parameters: {
+            prodID: 1
+          },
+          profileParameters: {
+            storeID: 2
+          }
         }
       ]
     }
