@@ -5,15 +5,15 @@ adobe.target.getOffers({
       mboxes: [
         {
           index: 0,
-          name: "mbox1"
+          name: "WAG-mbox1"
         },
         {
           index: 1,
-          name: "mbox2"
+          name: "WAG-mbox2"
         },
         {
           index: 2,
-          name: "mbox3"
+          name: "WAG-mbox3"
         }
       ]
     }
