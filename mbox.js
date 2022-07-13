@@ -7,30 +7,30 @@ adobe.target.getOffers({
           index: 0,
           name: "WAG-mbox1",
           parameters: {
-            prodID: 1
+            prodID: '10_packid'
           },
           profileParameters: {
-            storeID: 2
+            storeID: '11_packid'
           }
         },
          {
           index: 1,
           name: "WAG-mbox2",
           parameters: {
-            prodID: 1
+            prodID: '12_packid'
           },
           profileParameters: {
-            storeID: 2
+            storeID: '13_packid'
           }
         },
         {
           index: 2,
           name: "WAG-mbox3",
           parameters: {
-            prodID: 1
+            prodID: '14_packid'
           },
           profileParameters: {
-            storeID: 2
+            storeID: '15_packid'
           }
         }
       ]
