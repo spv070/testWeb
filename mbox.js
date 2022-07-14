@@ -49,8 +49,7 @@ adobe.target.getOffers({
       response: {
         prefetch: {
           mboxes: [el]
-           type: "setHtml",
-      content: "<h1>Container 1</h1>"
+          
         }
       }
     });
