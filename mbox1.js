@@ -3,7 +3,11 @@ adobe.target.getOffer({
   "success": function(offers) {           
         adobe.target.applyOffer( {  
            "mbox": "WAG-mbox1", 
-           "offer": offers  
+            selector: '#container1',
+              offer: [{
+                  type: 'html',
+                  content: '<h5 style="color: darkolivegreen">hello <strong>world!</strong></h5>'
+              }] 
         } ); 
   },   
   "error": function(status, error) {           
