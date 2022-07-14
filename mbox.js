@@ -57,3 +57,13 @@ adobe.target.getOffers({
     count += 1;
   });
 });
+
+$('#container1').click(function() {
+          adobe.target.applyOffer({
+              selector: '#container1',
+              offer: [{
+                  type: 'redirect',
+                  content: 'http://adobe.com'
+              }]
+          })
+      });
