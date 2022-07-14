@@ -9,6 +9,9 @@ adobe.target.getOffers({
           parameters: {
             prodID: '10_packid'
           },
+          parameters: {
+            prodID: '12_packid'
+          },
           profileParameters: {
             WAGstore: '11_packid'
           }
@@ -16,9 +19,6 @@ adobe.target.getOffers({
          {
           index: 1,
           name: "WAG-mbox2",
-          parameters: {
-            prodID: '12_packid'
-          },
           profileParameters: {
             WAGstore: '13_packid'
           }
@@ -47,13 +47,7 @@ adobe.target.getOffers({
       selector: "#container" + count,
       response: {
         prefetch: {
-          mboxes: [el]
-           
-          offer: [{
-                  type: 'html',
-                  content: '<h1>Hello World !</h1>'
-                   }]
-          
+          mboxes: [el]         
         }
       }
     });
