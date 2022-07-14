@@ -45,12 +45,12 @@ adobe.target.getOffers({
   mboxes.forEach(el => {
     adobe.target.applyOffers({
       selector: "#container" + count,
-      type: "setHtml",
-      content: "<h1>Container 1</h1>",
+     
       response: {
         prefetch: {
           mboxes: [el]
-          
+           type: "setHtml",
+      content: "<h1>Container 1</h1>"
         }
       }
     });
