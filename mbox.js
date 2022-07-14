@@ -48,6 +48,12 @@ adobe.target.getOffers({
       response: {
         prefetch: {
           mboxes: [el]
+           
+          offer: [{
+                  type: 'html',
+                  content: '<h1>Hello World !</h1>'
+                   }]
+          
         }
       }
     });
