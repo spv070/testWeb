@@ -6,24 +6,20 @@
    cookieDomain: 'spv070.github.io'
 };
     </script>
- 
-  <script type="text/javascript"> ​
+   <script type="text/javascript">
+adobe.target.trackEvent({"mbox": "orderConfirmPage",
 
-adobe.target.trackEvent({ ​
+    "params":{ 
 
-    "mbox": "orderConfirmPage", ​
+        "orderId": "wag12345",
 
-    "params":{  ​
+        "orderTotal": "16.99",
 
-        "orderId": “<Order Id from the order confirmation page>",  ​
+        "productPurchasedId": "packid_11"
 
-        "orderTotal": “<Order total from the order confirmation page>",  ​
+    } 
 
-        "productPurchasedId": “<Comma-separated list of product Id’s from the order confirmation page>"  ​
-
-    } ​
-
-}); ​
+});
 
 </script> 
   
