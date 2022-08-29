@@ -24,16 +24,18 @@
  <button type="button">Click to reset data layer</button>
  
   
-  <script>
-          window.adobeDataLayer = window.adobeDataLayer || [];
-          adobeDataLayer.push({
-              page: 'Cart Page',
-              event:'cmp:show',
-              eventInfo: {
-                  path: 'page.page\u002D2eee4f8914'
-              }
-          });
-        </script>
+<body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
+    <script>
+      window.adobeDataLayer = window.adobeDataLayer || [];
+      adobeDataLayer.push({
+          page: JSON.parse("{\x22page\u002D6c5d4b9fdd\x22:{\x22xdm:language\x22:\x22en\x22,\x22repo:path\x22:\x22\/content\/wknd\/language\u002Dmasters\/en.html\x22,\x22xdm:tags\x22:[],\x22xdm:template\x22:\x22\/conf\/wknd\/settings\/wcm\/templates\/landing\u002Dpage\u002Dtemplate\x22,\x22@type\x22:\x22wknd\/components\/page\x22,\x22dc:description\x22:\x22WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.\x22,\x22dc:title\x22:\x22WKND Adventures and Travel\x22,\x22repo:modifyDate\x22:\x222020\u002D09\u002D29T07:50:13Z\x22}}"),
+          event:'cmp:show',
+          eventInfo: {
+              path: 'page.page\u002D6c5d4b9fdd'
+          }
+      });
+    </script>
+
 
 </body>
 </html>
