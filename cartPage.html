@@ -22,6 +22,18 @@
  <h2>Cart Page for Testing</h2>
   
  <button type="button">Click to reset data layer</button>
+ 
+  
+  <script>
+          window.adobeDataLayer = window.adobeDataLayer || [];
+          adobeDataLayer.push({
+              page: document.title,
+              event:'cmp:show',
+              eventInfo: {
+                  path: 'page.page\u002D2eee4f8914'
+              }
+          });
+        </script>
 
 </body>
 </html>
