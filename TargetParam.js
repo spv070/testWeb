@@ -1,4 +1,4 @@
-targetPageParams = function() { 
+targetPageParamsAll = function() { 
 
   return { 
 
