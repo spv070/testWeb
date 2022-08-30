@@ -1,4 +1,3 @@
-<script>
 targetPageParams = function() { 
 
   return { 
@@ -11,4 +10,3 @@ targetPageParams = function() {
   };
 
 };
-</script>
