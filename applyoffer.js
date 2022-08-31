@@ -5,9 +5,9 @@ adobe.target.getOffers({
       mboxes: [
          {
           index: 0,
-          name: "WAG-mbox1",
+          name: "target-global-mbox",
           parameters: {
-            prodID: '10_packid'
+            entity.id: '12345'
           },
           parameters: {
             prodID: '12_packid'
