@@ -5,7 +5,7 @@ adobe.target.getOffers({
       mboxes: [
          {
           index: 0,
-          name: "target-global-mbox",
+          name: "mbox-update-entityID",
           parameters: {
             'entity.id': '12345'
           },
