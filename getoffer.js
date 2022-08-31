@@ -3,7 +3,7 @@ adobe.target.getOffers({
         execute: {
             pageLoad: {
                 parameters: {
-entityID: '123'
+"entity.id": '123'
 }
             }
         }
