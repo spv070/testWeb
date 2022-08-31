@@ -10,7 +10,8 @@ adobe.target.getOffers({
             'entity.id': '12345'
           },
           parameters: {
-            prodID: '12_packid'
+            prodID: '12_packid',
+            entity.id: '12345'
           },
           profileParameters: {
             WAGstore: '11_packid'
@@ -21,6 +22,7 @@ adobe.target.getOffers({
           name: "WAG-mbox2",
           profileParameters: {
             WAGstore: '13_packid'
+            
           }
         },
         {
