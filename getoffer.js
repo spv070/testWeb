@@ -9,3 +9,21 @@ adobe.target.getOffers({
         }
     }
 });
+
+
+adobe.target.getOffers({
+  request: {
+    "prefetch": {
+      "views": [
+        {
+          "parameters": {
+            "entity.id": "987"
+          },
+          "profileParameters": {
+            "user-age": 23
+          }
+        }
+      ]
+    }
+  }
+});
