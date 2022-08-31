@@ -4,7 +4,7 @@ adobe.target.getOffers({
       "views": [
         {
           "parameters": {
-            "entity.id": "123456"
+            "entity.id": "SampleProd_1"
           },
           "profileParameters": {
             "user-age": 23
