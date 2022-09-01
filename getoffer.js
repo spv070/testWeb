@@ -7,7 +7,7 @@ adobe.target.getOffer({
      "entity.message":"One of our best products!"
   },
   "success": function(offer) {
-    document.getElementsByTagName("h2")[0].innerHTML=offer[0].content.innerText;
+  console.log("result is"+offer[0].content.innerText);
 
   },
   "error": function(status, error) {
