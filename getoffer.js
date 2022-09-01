@@ -8,8 +8,9 @@ adobe.target.getOffer({
   },
   "success": function(content) {
   
-    var sample=JSON.stringify(content);
-    var obj = sample;
+   
+    var obj = JSON.stringify(content);
+    consol.log("obj") is +obj);
 var result = Object.keys(obj).map((key) => [Number(key), obj[key]]);
     console.log(result);
 
