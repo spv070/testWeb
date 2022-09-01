@@ -10,7 +10,7 @@ adobe.target.getOffer({
   console.log("Result: "+JSON.stringify(offer));
     var sample=JSON.stringify(offer);
     console.log(sample);
-    console.log(sample.innerText);
+    console.log(sample.action);
 
   },
   "error": function(status, error) {
