@@ -1,7 +1,7 @@
 adobe.target.getOffer({
   "mbox": "DemoBox2",
   "params":{
-     "entity.id":"Prod_1",
+     "entity.id":"Prod_9",
      
   },
   "success": function(offer) {
