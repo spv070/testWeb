@@ -8,6 +8,34 @@ adobe.target.getOffer({
     console.log("Result: "+JSON.stringify(offer));
           var result =Object.entries(offer);
     console.log(result[0][1].content[0]);
+    
+    adobe.target.applyOffers({response:{
+  "execute": {
+    "pageLoad": {
+      "options": [{
+        "type": "html",
+        "content": "page-load"
+      },
+      {
+        "type": "insertAfter",
+        "content": [{
+          "type": "setHtml",
+          "content": "<h1>Container 1</h1>",
+          "selector": "HTML > BODY",
+        
+        }]
+      }],
+ 
+ 
+      "metrics": [{
+        "type": "click",
+        "selector": "HTML > BODY",
+        "eventToken": "page-load-click-metric" 
+      }]
+    }
+  }
+}});
+
                
   },
   "error": function(status, error) {
