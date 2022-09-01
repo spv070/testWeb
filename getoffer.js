@@ -9,7 +9,7 @@ adobe.target.getOffer({
   "success": function(content) {
   
                 var result =Object.entries(content);
-    console.log(result[0][1].content[0].innerText);
+    document.getElementsByTagName("h2")[0].innerHTML=result[0][1].content[0].innerText;
 
 
   },
