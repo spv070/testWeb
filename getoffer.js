@@ -7,7 +7,7 @@ adobe.target.getOffer({
   "success": function(offer) {
     console.log("Result: "+JSON.stringify(offer));
           var result =Object.entries(offer);
-    console.log(result[0][1].content[0].innerText);
+    console.log(result[0][1].content[0]);
     
     adobe.target.applyOffers({response:{
   "execute": {
@@ -20,7 +20,7 @@ adobe.target.getOffer({
         "type": "insertAfter",
         "content": [{
           "type": "setHtml",
-          "content":result[0][1].content[0].innerText,
+          "content":result[0][1].content[0],
           "selector": "HTML > BODY",
         
         }]
