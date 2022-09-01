@@ -7,7 +7,7 @@ adobe.target.getOffer({
      "entity.message":"One of our best products!"
   },
   "success": function(offer) {
-  console.log("Result: "+offer[0].content));
+  console.log("Result: "+offer[0].content);
 
   },
   "error": function(status, error) {
