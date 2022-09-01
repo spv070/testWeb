@@ -5,5 +5,12 @@ adobe.target.getOffer({
      "entity.categoryId":"category_1",
      "entity.name":"My Awesome Product 1",
      "entity.message":"One of our best products!"
+  },
+  "success": function(offer) {
+    console.log("Result: "+JSON.stringify(offer));
+  },
+  "error": function(status, error) {
+    console.log('Error', status, error);
   }
 });
+
