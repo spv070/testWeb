@@ -20,7 +20,7 @@ adobe.target.getOffer({
         "type": "insertAfter",
         "content": [{
           "type": "setHtml",
-          "content": "<h1>Container 1</h1>",
+          "content": "result[0][1].content[0]",
           "selector": "HTML > BODY",
         
         }]
