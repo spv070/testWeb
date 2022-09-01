@@ -7,7 +7,10 @@ adobe.target.getOffer({
      "entity.message":"One of our best products!"
   },
   "success": function(offer) {
-  console.log("Result: "+offer[0].content);
+  console.log("Result: "+JSON.stringify(offer));
+    var sample=JSON.stringify(offer);
+    console.log(sample);
+    console.log(sample.innerText);
 
   },
   "error": function(status, error) {
