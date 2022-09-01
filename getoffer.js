@@ -5,7 +5,8 @@ adobe.target.getOffer({
      
   },
   "success": function(offer) {
-  
+          var result =Object.entries(offer);
+    console.log(result[0][1].offer[0]);
                 adobe.target.applyOffers({response:{
   "execute": {
     "pageLoad": {
@@ -14,8 +15,7 @@ adobe.target.getOffer({
         "content": "page-load"
       },
       {
-        var result =Object.entries(offer);
-    console.log(result[0][1].offer[0]);
+       
         "type": "insertAfter",
         "content": [{
           "type": "setHtml",
