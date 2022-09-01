@@ -8,13 +8,8 @@ adobe.target.getOffer({
   },
   "success": function(content) {
   
-   
-    var obj = JSON.stringify(content);
-    console.log("obj is" +obj);
-var result = Object.keys(obj).map((key) => [Number(key), obj[key]]);
-    console.log(result);
-    console.log(Object.entries(obj));
-                console.log(Object.entries(content));
+                var result =Object.entries(content);
+    console.log(result[0][1].content[0].innerText);
 
 
   },
