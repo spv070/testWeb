@@ -21,7 +21,8 @@ adobe.target.getOffer({
         "content": [{
           "type": "setHtml",
           "content":result[0][1].content,
-          "selector": "HTML > BODY > H2:nth-of-type(1)"
+          "selector": "HTML > BODY > H2:nth-of-type(1)",
+          "cssSelector":"HTML > BODY > H2:nth-of-type(1)"
         
         }]
       }],
