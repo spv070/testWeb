@@ -21,7 +21,7 @@ adobe.target.getOffer({
         "content": [{
           "type": "setHtml",
           "content":result[0][1].content,
-          "selector": "HTML > BODY",
+          "selector": "HTML > BODY > H2:nth-of-type(1)"
         
         }]
       }],
@@ -29,7 +29,7 @@ adobe.target.getOffer({
  
       "metrics": [{
         "type": "click",
-        "selector": "HTML > BODY",
+        "selector": "HTML > BODY > H2:nth-of-type(1)",
         "eventToken": "page-load-click-metric" 
       }]
     }
