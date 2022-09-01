@@ -5,6 +5,7 @@ adobe.target.getOffer({
      
   },
   "success": function(offer) {
+    console.log("Result: "+JSON.stringify(offer));
           var result =Object.entries(offer);
     console.log(result[0][1].offer[0]);
                
