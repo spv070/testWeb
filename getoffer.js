@@ -13,6 +13,8 @@ adobe.target.getOffer({
     console.log("obj is" +obj);
 var result = Object.keys(obj).map((key) => [Number(key), obj[key]]);
     console.log(result);
+    console.log(Object.entries(obj));
+                consol.log(Object.entries(content));
 
 
   },
