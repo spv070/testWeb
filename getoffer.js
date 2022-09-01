@@ -1,5 +1,5 @@
 adobe.target.getOffer({
-  "mbox": "DemoBox2",
+  "mbox": "target-global-mbox",
   "params":{
      "entity.id":"Prod_5",
      
