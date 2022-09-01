@@ -22,7 +22,7 @@ adobe.target.getOffer({
           "type": "setHtml",
           "selector": "HTML > BODY > H2:nth-of-type(1)",
           "cssSelector":"HTML > BODY > H2:nth-of-type(1)",
-          "content":result[0][1].content,
+          "content":result[0][1].content
         
         }]
       }],
