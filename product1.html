@@ -9,10 +9,12 @@
   <script>
 
 
-var MyCustomEvent = new CustomEvent('MyCustomEvent');  
+function fireDynamicPageView() {
+            var dynamicEvent = document.createEvent('CustomEvent');
+            dynamicEvent.initCustomEvent('Dynamic_PageView', true, true, dtm_datalayer);
+            document.getElementById('trackPageView').dispatchEvent(dynamicEvent);
+          }
 
-
-document.querySelector('body').dispatchEvent(MyCustomEvent);
           
   </script>
  <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" async></script>
@@ -21,6 +23,7 @@ document.querySelector('body').dispatchEvent(MyCustomEvent);
 <h1>prod_1</h1>
 
  <h2></h2>
+  <div id="trackPageView"></div>
   
 </body>
 </html>
