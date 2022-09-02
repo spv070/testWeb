@@ -9,12 +9,9 @@
   <script>
 
 
-function fireDynamicPageView() {
-            var dynamicEvent = document.createEvent('CustomEvent');
-            dynamicEvent.initCustomEvent('Dynamic_PageView', true, false);
-document.querySelector('body').dispatchEvent(dynamicEvent);
-
-          }
+    
+    var addToCart = new CustomEvent('Dynamic_PageView', 'detail': {'product_id': 12345, 'quantity': 1, 'price': 192});
+document.querySelector('body').dispatchEvent(Dynamic_PageView);
 
           
   </script>
