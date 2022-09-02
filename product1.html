@@ -15,7 +15,7 @@
   <script>
 function fireDynamicPageView() {
             var dynamicEvent = document.createEvent('CustomEvent');
-   dynamicEvent.initCustomEvent('Dynamic_event', true, true);
+   dynamicEvent.initCustomEvent('Dynamic_event', true, false);
            document.querySelector('body').dispatchEvent(dynamicEvent);
           }
   </script>
