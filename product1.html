@@ -14,9 +14,13 @@
  <h2></h2>
   <script>
 function fireDynamicPageView() {
-            var dynamicEvent = document.createEvent('CustomEvent');
-   dynamicEvent.initCustomEvent('Dynamic_event', true, false);
-           document.querySelector('body').dispatchEvent(dynamicEvent);
+           // generic example for creating the custom event (point #1)
+
+var MyCustomEvent = new CustomEvent('MyCustomEvent');  
+
+// generic example for dispatching (triggering) the custom event (point #2)
+
+document.querySelector('body').dispatchEvent(MyCustomEvent);
           }
   </script>
 </body>
