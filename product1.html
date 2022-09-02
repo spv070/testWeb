@@ -25,6 +25,12 @@ document.querySelector('body').dispatchEvent(MyCustomEvent);
 
  <h2></h2>
   <div id="trackPageView"></div>
+  <script>
+    window.addEventListener("MyCustomEvent", function(MyCustomEvent) {
+    alert(MyCustomEvent.detail);
+}, false);
+
+  </script>
   
 </body>
 </html>
