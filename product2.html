@@ -6,11 +6,19 @@
    cookieDomain: 'spv070.github.io'
 };
     </script>
- <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" async></script></head>
+  
+ <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" ></script>
+  </head>
 <body>
-<h1>prod_2</h1>
+<h1>prod_1</h1>
 
  <h2></h2>
+  <div id="trackPageView"></div>
+  <script>
+_satellite.track("testsubi");
+    document.querySelector('body').dispatchEvent(new CustomEvent("MyCustomEventTest"));
 
+  </script>
+  
 </body>
 </html>
