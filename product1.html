@@ -6,18 +6,7 @@
    cookieDomain: 'spv070.github.io'
 };
     </script>
-  <script>
-
- function fireDynamicPageView() {
-    
-    var MyCustomEvent = new CustomEvent('MyCustomEvent');  
-
-// generic example for dispatching (triggering) the custom event (point #2)
-
-document.querySelector('body').dispatchEvent(MyCustomEvent);
- }
-          
-  </script>
+  
  <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" async></script>
   </head>
 <body>
@@ -26,9 +15,7 @@ document.querySelector('body').dispatchEvent(MyCustomEvent);
  <h2></h2>
   <div id="trackPageView"></div>
   <script>
-    window.addEventListener("MyCustomEvent", function(MyCustomEvent) {
-    alert(MyCustomEvent.detail);
-}, false);
+    document.querySelector('body').dispatchEvent(new CustomEvent("MyCustomEvent"));
 
   </script>
   
