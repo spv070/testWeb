@@ -12,7 +12,8 @@
 function fireDynamicPageView() {
             var dynamicEvent = document.createEvent('CustomEvent');
             dynamicEvent.initCustomEvent('Dynamic_PageView', true, true);
-            document.getElementById('trackPageView').dispatchEvent(dynamicEvent);
+document.querySelector('body').dispatchEvent(dynamicEvent);
+
           }
 
           
