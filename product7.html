@@ -9,24 +9,25 @@
  <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" async></script></head>
   <script>
 function myFunction() {
-  "digitalData.events.push({
+"digitalData.events.push({
                 events:[{
-                  eventName:""recommendationClick"",
+                  eventName:""recommendationImpression"",
                  recommendation: {
                         type:""product recommendation"",
                         name:""recently viewed items"",
                         placement:""1""
                      }},]
 
-prodRecoData: { 
+prodRecoData: [{ 
                     productWIC:""320715"",
                     position:""1"",
                     productProdID: ""prod6228874""
-}, 
-productFinding: {
-                    method:""product recommendations""    
-                    }
-});"
+},
+{ 
+                    productWIC:""320716"",
+                    position:""2"",
+                    productProdID: ""prod62678874""
+},]         });"
 
 }
 </script>
