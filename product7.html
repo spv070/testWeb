@@ -7,9 +7,33 @@
 };
     </script>
  <script src="https://assets.adobedtm.com/35066b6d6803/9967ff8d2a4a/launch-d31833bc27c0-development.min.js" async></script></head>
+  <script>
+function myFunction() {
+  "digitalData.events.push({
+                events:[{
+                  eventName:""recommendationClick"",
+                 recommendation: {
+                        type:""product recommendation"",
+                        name:""recently viewed items"",
+                        placement:""1""
+                     }},]
+
+prodRecoData: { 
+                    productWIC:""320715"",
+                    position:""1"",
+                    productProdID: ""prod6228874""
+}, 
+productFinding: {
+                    method:""product recommendations""    
+                    }
+});"
+
+}
+</script>
+  
 <body>
 <h1>prod_7</h1>
-
+<h3 id="demo" onclick="myFunction()">Click this text to change the color.</h3>
  <h2></h2>
 
 </body>
