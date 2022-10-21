@@ -13,25 +13,10 @@
 <script>
 document.getElementById("demo").onclick = function() {myFunction()};
 function myFunction() {
-digitalData.events.push({
-                events:{
-                  eventName:"recommendationImpression",
-                 recommendation: {
-                        type:"product recommendation",
-                        name:"recently viewed items",
-                        placement:"1"
-                     }}
-
-prodRecoData: [{ 
-                    productWIC:"320715",
-                    position:"1",
-                    productProdID:"prod6228874"
-},
-{ 
-                    productWIC:"320716",
-                    position:"2",
-                    productProdID:"prod62678874"
-}]         });
+ var digitalData = {
+		country: 'us',
+		language: 'en'
+      }
   }
 </script>
 </body>
