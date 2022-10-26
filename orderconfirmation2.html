@@ -9,13 +9,13 @@
  <script src="at.js"></script>
   <script type="text/javascript">
 
-   adobe.target.trackEvent({
+adobe.target.getOffer({
   "mbox": "DemoBox",
-    "params":{
-        "orderId": "65675",
-        "orderTotal": "76",
-        "productPurchasedId": "243434,34344,676786"
-    },
+  "params":{
+    "orderId": "65675",
+    "orderTotal": "76",
+    "productPurchasedId": "243434,34344,12345"
+  },
   "success": function(offer) {
     console.log("Result: "+offer[0].content);
   },
